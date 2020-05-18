@@ -1,4 +1,4 @@
-# A simple ML model for handwrite digits recognition
+# A simple ML model for handwrite digits recognition (Linux only)
 
 Repository structure:
 
@@ -11,7 +11,7 @@ Repository structure:
    1. TRAIN - if true run gradient descent with given paramers
    2. TEST - if true run test and print train cost, test cost and difference
    3. GRADIENT_CHECK - if true run gradient_check for applying a back propagation (there is everyting okay don't touch it, it's very slow)
+* Main_NN - executable file
 
-   
 For create your own weights delete or transfer weights.db (Programm create a new random weights).
 Algorithm is not very good because of lack a train exemples (I'm tired to draw this digits) and my dumpness (as always), but it's can correctly recognize well drawn digits.
